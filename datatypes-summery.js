@@ -1,4 +1,4 @@
-// Premitive Type data
+// Primitive Type data
 
 // 7 Types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
@@ -19,7 +19,7 @@ console.log(id === anotherId); // false
 
 
 
-// Reference (Non premitive)
+// Reference (Non primitive)
 
 // Array, Objects, Functions
 
@@ -33,4 +33,4 @@ const myFunction = function() {
     console.log('Hello World');
 }
 
-console.log(typeof anotherId); // object
+console.log(typeof anotherId); // symbol
